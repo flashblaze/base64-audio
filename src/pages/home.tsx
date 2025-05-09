@@ -271,6 +271,9 @@ const Home = () => {
         value={base64Input}
         onChange={(e) => setBase64Input(e.target.value)}
         withAsterisk
+        autosize
+        minRows={4}
+        maxRows={12}
       />
 
       <Select
